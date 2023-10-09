@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zugah farms</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+
+    <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- nav start -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark py-3 fixed-top ">
+        <div class="container">
+            <a href="#home" class="navbar-brand fs-3">Zugah farms</a>
+
+            <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse " id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#subsidiaries" class="nav-link">Subsidiaries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#management" class="nav-link">Management</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#faq" class="nav-link">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
+
+
+    <!-- home start -->
+<section class="bg-dark text-light p-5text-center p-lg-0 pt-lg-0 " id="home">
+
+    <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between  pt-5">
+            <div class="first"><h1>Become a <span class="text-warning">Farmer</span></h1>
+                <p class="lead my-4 ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Placeat voluptatibus sed enim 
+                    aspernatur voluptatum est labore molestiae? Numquam, eos eaque?
+                </p>
+                <button class="btn btn-primary btt" data-bs-toggle="modal" data-bs-target="#enroll">Get Started</button>
+            </div>
+            <img class="img-fluid w-50 d-none d-sm-block" src="./farm.png" alt="">
+        </div>
+    </div>
+
+</section>
+
+<!-- letter start -->
+<!-- <section class="bg-primary text-light p-5">
+    <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+            <h3 class="mb-3 mb-md-0">Want farm product?</h3>
+
+            <div class="input-group mb-3 news-input">
+                <input type="text" class="form-control" placeholder="Enter your search"/>
+                <button class="btn btn-dark btn-lg " type="button">Search</button>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+
+
+<!-- about us -->
+
+<section class="p-5" id="about">
+    <div class="container">
+        <div class="row align-items-center justify-content-between pt-5">
+            <div class="col-md">
+                <img class="img-fluid" src="./chick.png" alt="">
+            </div>
+            <div class="col-md p-5 ">
+                <h2>About Us</h2>
+                <p class="lead abt">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Repellat veniam, et libero voluptatem sequi maiores!
+                </p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem magni,
+                     quam nemo vel modi magnam corrupti reiciendis ducimus omnis illo natus
+                     odio eveniet quae consectetur nisi quaerat labore molestiae error!
+                </p>
+                <a href="" class="btn btn-light mt-3"><i class="bi bi-chevron-right"></i> Read More</a>
+            </div>
+        </div>
+        
+            <div class="row text-center g-4 pt-5">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                           <h3 class="card-title mb-3">
+                            Vission
+                           </h3>
+                           <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores 
+                            accusamus dolorum voluptatibus. Fugiat, doloribus necessitatibus.
+                           </p>
+                           <a href="" class="btn btn-primary">More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person"></i>
+                            </div>
+                           <h3 class="card-title mb-3">
+                            Mission
+                           </h3>
+                           <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores 
+                            accusamus dolorum voluptatibus. Fugiat, doloribus necessitatibus.
+                           </p>
+                           <a href="" class="btn btn-dark">More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-people"></i>
+                            </div>
+                           <h3 class="card-title mb-3">
+                            Achievement
+                           </h3>
+                           <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores 
+                            accusamus dolorum voluptatibus. Fugiat, doloribus necessitatibus.
+                           </p>
+                           <a href="" class="btn btn-primary">More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+
+</section>
+
+
+
+<!-- services -->
+
+<section class="p-5" id="services">
+   
+</section>
+
+
+
+<!-- subsidiaries -->
+
+<section class="p-5 bg-dark text-light" id="subsidiaries">
+    <div class="container">
+        <div class="row align-items-center justify-content-between pt-5">
+            
+            <div class="col-md p-5">
+                <h2>Subsidiaries</h2>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Repellat veniam, et libero voluptatem sequi maiores!
+                </p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem magni,
+                     quam nemo vel modi magnam corrupti reiciendis ducimus omnis illo natus
+                     odio eveniet quae consectetur nisi quaerat labore molestiae error!
+                </p>
+                <a href="" class="btn btn-light mt-3"><i class="bi bi-chevron-right"></i> Read More</a>
+            </div>
+
+            <div class="col-md">
+                <img class="img-fluid" src="./egg.png" alt="">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<!-- Board -->
+
+<section id="management" class="p-5 bg-primary">
+    <div class="container">
+        <h2 class="text-center text-white mt-5">
+            Our Management
+        </h2>
+        <p class="lead text-center text-white mb-5">
+            Lorem ipsum, dolor sit amet
+             consectetur adipisicing elit. Mollitia, quae?
+        </p>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="./Jack.png" alt="" class="rounded-circle mb-3">
+                        <h3 class="card-tittle mb-3">Mr.Wilson Dan</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur,
+                             adipisicing elit. Ea, dolorum.
+                        </p>
+                        <a href=""><i class="bi bi-twitter text-dark mx-1"></i> </a>
+                        <a href=""><i class="bi bi-facebook text-dark mx-1"></i> </a>
+                        <a href=""><i class="bi bi-linkedin text-dark mx-1"></i> </a>
+                        <a href=""><i class="bi bi-instagram text-dark mx-1"></i> </a>
+                        <a href=""><i class="bi bi-youtube text-dark mx-1"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="./cameron.png" alt="" class="rounded-circle mb-3">
+                        <h3 class="card-tittle mb-3">Mrs.Clarkson Zeal</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur,
+                             adipisicing elit. Ea, dolorum.
+                        </p>
+                        <a href=""><i class="bi bi-twitter text-dark mx-1"></i> </a>
+                        <a href=""><i class="bi bi-facebook text-dark mx-1"></i> </a>
+                        <a href=""><i class="bi bi-linkedin text-dark mx-1"></i> </a>
+                        <a href=""><i class="bi bi-instagram text-dark mx-1"></i> </a>
+                        <a href=""><i class="bi bi-youtube text-dark mx-1"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="./simon.png" alt="" class="rounded-circle mb-3">
+                        <h3 class="card-tittle mb-3">Mr.Xorse Bon</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur,
+                             adipisicing elit. Ea, dolorum.
+                        </p>
+                        <a href=""><i class="bi bi-twitter text-dark mx-1"></i> </a>
+                        <a href=""><i class="bi bi-facebook text-dark mx-1"></i> </a>
+                        <a href=""><i class="bi bi-linkedin text-dark mx-1"></i> </a>
+                        <a href=""><i class="bi bi-instagram text-dark mx-1"></i> </a>
+                        <a href=""><i class="bi bi-youtube text-dark mx-1"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="./megan.png" alt="" class="rounded-circle mb-3">
+                        <h3 class="card-tittle mb-3">Mrs.Jane Pag</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur,
+                             adipisicing elit. Ea, dolorum.
+                        </p>
+                        <a href=""><i class="bi bi-twitter text-dark mx-1"></i> </a>
+                        <a href=""><i class="bi bi-facebook text-dark mx-1"></i> </a>
+                        <a href=""><i class="bi bi-linkedin text-dark mx-1"></i> </a>
+                        <a href=""><i class="bi bi-instagram text-dark mx-1"></i> </a>
+                        <a href=""><i class="bi bi-youtube text-dark mx-1"></i> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Accordion -->
+
+<section class="p-5 " id="faq">
+    <div class="container">
+        <h2 class="text-center mt-5">FAQ</h2>
+        <div class="accordion accordion-flush mb-2" id="faq">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-one" >
+                  Where are you located?
+                </button>
+              </h2>
+              <div id="faq-one" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#faq">
+                <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Ad, veritatis. Harum, sapiente sequi. Laboriosam enim cum aspernatur quos! Quibusdam
+                      laboriosam nobis excepturi ut facilis nemo. Facere accusamus quisquam maxime, reprehenderit 
+                      expedita a doloremque, nam harum quis enim aut quasi laboriosam porro.
+                     Sed aperiam minima consequatur expedita et dolores quod voluptas?</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-two" >
+                    How much is your ?
+                  </button>
+                </h2>
+                <div id="faq-two" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#faq">
+                  <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                       Ad, veritatis. Harum, sapiente sequi. Laboriosam enim cum aspernatur quos! Quibusdam
+                        laboriosam nobis excepturi ut facilis nemo. Facere accusamus quisquam maxime, reprehenderit 
+                        expedita a doloremque, nam harum quis enim aut quasi laboriosam porro.
+                       Sed aperiam minima consequatur expedita et dolores quod voluptas?</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-three" >
+                    How long will my goods take to reach my destination?
+                  </button>
+                </h2>
+                <div id="faq-three" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#faq">
+                  <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                       Ad, veritatis. Harum, sapiente sequi. Laboriosam enim cum aspernatur quos! Quibusdam
+                        laboriosam nobis excepturi ut facilis nemo. Facere accusamus quisquam maxime, reprehenderit 
+                        expedita a doloremque, nam harum quis enim aut quasi laboriosam porro.
+                       Sed aperiam minima consequatur expedita et dolores quod voluptas?</div>
+                </div>
+              </div>
+          </div>
+    </div>
+</section>
+
+
+<!-- contact -->
+<section class="p-5" id="contact">
+    <div class="container">
+        
+        <div class="row g-4">
+            <div class="col-md">
+                <h2 class="text-center mb-1" >Contact Info</h2>
+                <ul class="list-group list-group-flush lead">
+                    <li class="list-group-item">
+                        <span class="fw-bold">Main Location:</span> Braveson Avenue, St. No.6 
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">Phone:</span> (+233) 545327593
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">Email:</span> xorse928@gmail.com
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">Linkedin:</span> Zugah Farms 
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">Instagram:</span> zugahfarms 
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">Facebook:</span> Zugah Farms 
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md">
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- footer -->
+<footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+        <p class="lead">Copyright &copy; Zugah farms 2023</p>
+        <a href="" class="position-absolute bottom-0 end-0 p-5">
+
+        <i class="bi bi-arrow-up-circle h1"></i>    
+        </a>
+    </div>
+</footer>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Complete the form</p>
+          <form action="">
+            <div class="mb-3">
+                <label for="first-name" class="col-form-label">First Name:</label>
+                <input type="text" class="form-control" id="first-name">
+            </div>
+            <div class="mb-3">
+                <label for="last-name" class="col-form-label">Last Name:</label>
+                <input type="text" class="form-control" id="last-name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="col-form-label">Email:</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="col-form-label">Phone:</label>
+                <input type="tel" class="form-control" id="phone">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiYnJhdmVzb24iLCJhIjoiY2xuaXB3dWRwMXN1ZTJpdzU4enlydzY5aiJ9.apPQO9F-MmwPMXVT-zN57g';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11'
+    
+  });
+    </script>
+</body>
+</html>
